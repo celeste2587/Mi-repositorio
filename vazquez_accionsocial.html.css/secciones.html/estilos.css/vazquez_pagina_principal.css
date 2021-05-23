@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(img.css.html/foto6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(255, 224, 242);
+  margin: 5px;
+}
+/* header*/
+
+.inline {
+  display: inline-flex;
+  margin: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.textos {
+  color: rgb(236, 190, 185);
+}
+
+.texto-negrita {
+  font-weight: bold;
+}
+
+.lista {
+  color: rgb(236, 190, 185);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+/* main */
+
+ul li {
+  color: rgb(255, 224, 242);
+  margin-inline: 25px;
+}
+
+a {
+  color: beige;
+  text-decoration: none;
+}
+
+.main {
+  /* height: 10px;
+  bottom: 10px; */
+  margin: 15px;
+}
+.color-clarito {
+  color: rgb(253, 202, 136);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+td li {
+  color: rgb(236, 190, 185);
+}
+tr th {
+  color: rgb(253, 202, 136);
+}
+
+tr td {
+  color: rgb(236, 190, 185);
+  font-weight: bold;
+}
+
+.conteiner {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.conteiner .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+  margin: 15px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.conteiner .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+
+.conteiner .card img {
+  width: 150px;
+  height: 200px;
+}
+
+.conteiner .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.conteiner .card h4 {
+  font-weight: 600;
+  color: rgb(253, 202, 136);
+}
+.conteiner .card p {
+  padding: 0, 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(236, 190, 185);
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  display: inline-flexbox;
+  background-position: bottom;
+
+  /* margin-bottom: 50px; */
+  background-size: 30px;
+  font-size: 30px;
+}
